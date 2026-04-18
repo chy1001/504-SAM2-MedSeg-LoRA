@@ -1,5 +1,4 @@
 # 504-SAM2-MedSeg-LoRA
-SAM2 3D Medical Image Segmentation Baseline
 ========================================================================
 
 A robust baseline evaluation pipeline for 3D medical image segmentation using SAM2 (Segment Anything Model 2). This implementation employs a 2D bounding-box bidirectional propagation strategy to assess SAM2's zero-shot performance on 3D MRI volumes (e.g., BraTS) without any fine-tuning.
