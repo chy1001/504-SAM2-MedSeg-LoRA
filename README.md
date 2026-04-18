@@ -30,16 +30,3 @@ To improve consistency across slices, we introduce a pseudo-video propagation st
 3. Generate bounding box prompts from ground truth masks  
 4. Fine-tune SAM2 using LoRA  
 5. Perform slice-wise inference with propagation  
-
----
-
-## Repository Structure
-
-```bash
-Final_preprocess_brats_slices.py   # Preprocessing: 3D → 2D slices
-Final_train_gray_1024.py           # Training with SAM2 + LoRA
-Final_evaluate_gray_fast.py        # Evaluation
-Final_visualize_case.py            # Visualization
-train_val_split.json               # Train/test split (case-level)
-Sam2_Video.mp4                    
-README.md                          # Project documentation
